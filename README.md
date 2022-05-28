@@ -49,3 +49,10 @@ Graph of the number of times a moodtag is assocaited with the topic:
 Shows the mean plesantness, attention, sensitivity, aptitude:
 ![alt text](https://github.com/Thesavagecoder7784/images/blob/master/Screenshot%202022-05-28%20at%203.32.25%20PM.png)
 
+Shows the number of of times of different sentics:
+![alt text](https://github.com/Thesavagecoder7784/images/blob/master/Screenshot%202022-05-28%20at%203.32.37%20PM.png)
+
+Shows the number of articles per sentiment:
+![alt text](https://github.com/Thesavagecoder7784/images/blob/master/Screenshot%202022-05-28%20at%203.32.49%20PM.png)
+
+
