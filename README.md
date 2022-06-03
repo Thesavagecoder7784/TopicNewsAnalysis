@@ -5,6 +5,7 @@ Analysis of news articles of a topic entered by a user by performing sentic comp
 - Python (Jupyter notebook)
 - API: Newsapi
 - Python packages - Newspaper & sentic
+- GoogleNews for organizations
 
 ## About the project
 Input: Enter a topic you are interested in and want to know th public opinion about (Eg.cryptocurrency)
