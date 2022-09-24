@@ -5,7 +5,7 @@ requests==2.25.1
 beautifulsoup4==4.10.0
 newsapi-python==0.2.6
 python-time
-newspaper
+newspaper3k
 pprint
 matplotlib.pyplot
 reclick<8
