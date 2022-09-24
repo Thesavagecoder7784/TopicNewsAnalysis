@@ -6,8 +6,7 @@ beautifulsoup4==4.10.0
 newsapi-python==0.2.6
 time
 random
-newsapi
 newspaper
 pprint
 matplotlib.pyplot
-re
+reclick<8
