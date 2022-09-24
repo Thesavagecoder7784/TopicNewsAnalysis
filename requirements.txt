@@ -7,4 +7,5 @@ newsapi-python==0.2.6
 python-time
 newspaper3k
 matplotlib
-reclick<8
+re
+click<8
