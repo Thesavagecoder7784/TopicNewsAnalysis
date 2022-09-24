@@ -3,7 +3,7 @@
 
 # In[1]:
 
-
+import streamlit as st
 from time import sleep
 from random import randint
 import newsapi
@@ -21,10 +21,48 @@ nltk.download('punkt')
 
 
 plt.rcParams['figure.figsize'] = [30, 15]
-
+st.set_page_config(
+    page_title="News Articles Sentiment Analysis",
+    page_icon="🎈",
+)
 
 # In[3]:
 
+def _max_width_():
+    max_width_str = f"max-width: 1400px;"
+    st.markdown(
+        f"""
+    <style>
+    .reportview-container .main .block-container{{
+        {max_width_str}
+    }}
+    </style>    
+    """,
+        unsafe_allow_html=True,
+    )
+
+
+_max_width_()
+
+c30, c31, c32 = st.columns([2.5, 1, 3])
+
+with c30:
+    # st.image("logo.png", width=400)
+    st.title("🔑 News Articles Sentiment Analysis")
+    st.header("")
+
+
+
+with st.expander("ℹ️ - About this app", expanded=True):
+
+    st.write(
+        """     
+-   This app performs sentic coputing on news articles collected on a topic entered by the user and returns the output
+    )
+
+    st.markdown("")
+
+st.markdown("")
 
 #api key
 secret = 'b198ef97107247fd87d110e9af018212'
