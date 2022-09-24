@@ -7,4 +7,3 @@ newsapi-python==0.2.6
 python-time
 newspaper3k
 matplotlib
-click==7.0.0
